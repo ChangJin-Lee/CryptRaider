@@ -43,3 +43,18 @@ Unreal Engine 5 Level design for dungeon
     - 라이트의 가시 영향력 범위입니다.
 
     <img src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/fb9ec162-f496-4013-8355-a0682a560524" width = 50%>
+
+
+## 캐릭터 BP
+
+- defulat 프로젝트로 게임모드를 설정하기
+
+    <img width="1314" alt="스크린샷 2023-08-09 오후 9 09 09" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/fbb72652-4328-4c63-8850-e9328b855112">
+
+- 게임 모드에 디폴트 폰을 설정하기
+
+- 게임에서 해당 폰이 스폰 됨
+
+<img width="524" alt="스크린샷 2023-08-09 오후 9 08 15" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/6afd7843-e727-4392-b6fb-739877320b79">
+
+<img width="513" alt="스크린샷 2023-08-09 오후 9 05 10" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/c8cf841c-b393-4396-ae08-c2b06df1c505">
