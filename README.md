@@ -22,3 +22,24 @@ Unreal Engine 5 Level design for dungeon
     <img src="https://github.com/ChangJin-Lee/CryptRaider/assets/54494793/d1c1d5a6-c195-408f-b6ae-62cad5af52d0" width = 70%>
 
     <img src="https://github.com/ChangJin-Lee/CryptRaider/assets/54494793/af9c8e50-c9fc-4063-97c5-c46dbbfb27f2" width = 70%>
+
+
+### Level Lighting
+
+- Shadow
+    - Dyanamic Shadow
+        - 디렉셔널 라이트 액터 전용 섀도잉 메서드인 Cascading Shadow Mapping (캐스케이드 섀도 매핑)을 통해 구워진 라이팅으로 동적인 섀도잉 효과를 내는 법을 확인할 수 있습니다. 미리 구워둔 그림자에 비할 때, 바람에 나부끼는 잎사귀 풍성한 나무같은 다이내믹 오브젝트에도 그림자를 드리워 훨씬 사실적인 씬을 만들 수 있다는 장점이 있습니다.
+    - Static Shadow
+        - 성능에 영향을 주지 않는 완벽한 정적 쉐도우
+        
+    <img src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/d6d9948a-9c2e-4091-8d3d-c5a1d0ebcc10" width = 50%>
+
+- Intensity
+    - 라이트가 뿜는 총 에너지입니다.
+
+    <img src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/94021ebd-a78f-4cb0-a5c0-8b14a96aa5bb" width = 50%>
+
+- Attenuation Radius
+    - 라이트의 가시 영향력 범위입니다.
+
+    <img src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/fb9ec162-f496-4013-8355-a0682a560524" width = 50%>
