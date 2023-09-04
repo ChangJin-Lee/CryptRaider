@@ -58,3 +58,9 @@ Unreal Engine 5 Level design for dungeon
 <img width="524" alt="스크린샷 2023-08-09 오후 9 08 15" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/6afd7843-e727-4392-b6fb-739877320b79">
 
 <img width="513" alt="스크린샷 2023-08-09 오후 9 05 10" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/c8cf841c-b393-4396-ae08-c2b06df1c505">
+
+
+- 캐릭터 블루프린트에서 디폴트 폰 클래스 변경하기
+
+<img width="513" alt="스크린샷 2023-08-09 오후 9 05 10" src="https://github.com/ChangJin-Lee/ChangJin-Lee/assets/54494793/4c4119f0-ef23-406f-b4dd-1808faf7c1b3">
+
