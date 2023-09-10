@@ -27,7 +27,7 @@ void UMover::BeginPlay()
 }
 
 
-// Called every frame
+// Called every frameMove
 void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
