@@ -27,4 +27,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	FVector RotateOffSet;
 
+private:
+	UPROPERTY(EditAnywhere)
+	float MaxGrabDistance = 400;
+
 };

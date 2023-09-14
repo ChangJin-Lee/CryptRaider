@@ -3,6 +3,9 @@
 
 #include "Grabber.h"
 #include "Components/SceneComponent.h"
+#include "Engine/World.h"
+#include "DrawDebugHelpers.h"
+#include "Components/SceneComponent.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -30,11 +33,22 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	FRotator OwnerRotation = GetComponentRotation();
+	// FRotator OwnerRotation = GetComponentRotation();
+	// FString RotationString = OwnerRotation.ToCompactString();
+	// UE_LOG(LogTemp, Display, TEXT("Camera Rotation is %s"), *RotationString);
 
-	FString RotationString = OwnerRotation.ToCompactString();
+	// World Object
+	// UWorld 객체를 얻을 수 있습니다.
+	// UWorld* world = GetWorld();
+	// float MyTime = world->TimeSeconds;
+	// UE_LOG(LogTemp, Display, TEXT(" %d"), MyTime);
 
-	UE_LOG(LogTemp, Display, TEXT("Camera Rotation is %s"), *RotationString);
+	FVector Start = GetComponentLocation();
+	FVector End = Start + GetForwardVector() * MaxGrabDistance ;
+	DrawDebugLine(GetWorld(), Start, End, FColor::Red);
+
+
+
 
 	// ...
 }
