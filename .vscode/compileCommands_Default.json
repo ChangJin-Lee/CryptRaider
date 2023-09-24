@@ -1,138 +1,138 @@
 [
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaider.Build.cs",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.Build.cs",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaider.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaider.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderCharacter.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderCharacter.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderGameMode.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderGameMode.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderProjectile.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\CryptRaiderProjectile.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\Grabber.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Grabber.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\Grabber.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Grabber.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\Mover.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Mover.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\Mover.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Mover.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\TP_PickUpComponent.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_PickUpComponent.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\TP_PickUpComponent.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_PickUpComponent.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\TP_WeaponComponent.cpp",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_WeaponComponent.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "D:\\Unreal Project\\CryptRaider\\Source\\CryptRaider\\TP_WeaponComponent.h",
+		"file": "/Users/changjin/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_WeaponComponent.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\Unreal Project\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.255.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/changjin/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_Default/CryptRaider.247.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	}
 ]
