@@ -43,6 +43,37 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// float MyTime = world->TimeSeconds;
 	// UE_LOG(LogTemp, Display, TEXT(" %d"), MyTime);
 
+
+	// const damage print
+	// float Damage;
+	// if (HasDamage(Damage))
+	// {
+	// 	PrintDamage(Damage);
+	// }
+	// UE_LOG(LogTemp, Display, TEXT("original Damage: %f"), Damage);
+	// ...
+}
+
+// void UGrabber::PrintDamage(float& Damage)
+void UGrabber::PrintDamage(const float& Damage)
+{
+	// Damage = 2;
+	UE_LOG(LogTemp, Display, TEXT("Damage: %f"), Damage);
+}
+
+bool UGrabber::HasDamage(float& OutDamage)
+{
+	OutDamage = 5;
+	return true;
+}
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Display, TEXT("Released grabber"));
+}
+
+void UGrabber::Grab()
+{
 	FVector Start = GetComponentLocation();
 	FVector End = Start + GetForwardVector() * MaxGrabDistance ;
 	DrawDebugLine(GetWorld(), Start, End, FColor::Red);
@@ -66,26 +97,4 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	{
 		UE_LOG(LogTemp, Display, TEXT("No Actor hit"));
 	}
-
-	// const damage print
-	// float Damage;
-	// if (HasDamage(Damage))
-	// {
-	// 	PrintDamage(Damage);
-	// }
-	// UE_LOG(LogTemp, Display, TEXT("original Damage: %f"), Damage);
-	// ...
-}
-
-// void UGrabber::PrintDamage(float& Damage)
-void UGrabber::PrintDamage(const float& Damage)
-{
-	// Damage = 2;
-	UE_LOG(LogTemp, Display, TEXT("Damage: %f"), Damage);
-}
-
-bool UGrabber::HasDamage(float& OutDamage)
-{
-	OutDamage = 5;
-	return true;
 }

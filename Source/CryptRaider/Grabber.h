@@ -23,9 +23,16 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	
+
 	UPROPERTY(EditAnywhere)
 	FVector RotateOffSet;
+
+	UFUNCTION(BlueprintCallable)
+	void Grab();
+
+	// blueprint 노출
+	UFUNCTION(BlueprintCallable)
+	void Release();
 
 private:
 	UPROPERTY(EditAnywhere)
