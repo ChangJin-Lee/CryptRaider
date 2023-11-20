@@ -29,6 +29,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	FVector RotateOffSet;
 
+	// blueprint 노출
 	UFUNCTION(BlueprintCallable)
 	void Grab();
 
@@ -51,4 +52,6 @@ private:
 	float HoldDistance = 200;
 
 	UPhysicsHandleComponent* GetPhysicsHandle() const;
+
+	bool GetGrabbableInReach(FHitResult& OutHitResult) const;
 };
