@@ -33,9 +33,26 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	GetOverlappingActors(Actors);
 
 	// 겹치는 object가 1개 이상 있을 때만 출력하도록 만들기
-	if (Actors.Num() > 0)
+	// if (Actors.Num() > 0)
+	// {
+	// 	FString actorName = Actors[0]->GetActorNameOrLabel();
+	// 	UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
+	// }
+
+	// int32 index = 0;
+	// while (index < Actors.Num())
+	// {
+	// 	FString actorName = Actors[index]->GetActorNameOrLabel();
+	// 	UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
+	// 	++index;
+	// }
+
+	for (int32 i = 0; i < Actors.Num(); i++)
 	{
-		FString actorName = Actors[0]->GetActorNameOrLabel();
+		/* code */
+		FString actorName = Actors[i]->GetActorNameOrLabel();
 		UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
 	}
+	
+
 }
