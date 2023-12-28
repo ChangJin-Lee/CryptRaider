@@ -57,7 +57,10 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	for (AActor* Actor : Actors)
 	{
 		FString actorName = Actor->GetActorNameOrLabel();
-		UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
+		if (Actor->ActorHasTag(CollisionObjectTag))
+		{
+			UE_LOG(LogTemp, Display, TEXT("Unlocking"));
+		}
+		
 	}
-
 }
