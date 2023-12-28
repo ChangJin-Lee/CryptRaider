@@ -3,9 +3,39 @@
 
 #include "TriggerComponent.h"
 
+// Sets default values for this component's properties
+UTriggerComponent::UTriggerComponent()
+{
+	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
+	// off to improve performance if you don't need them.
+	PrimaryComponentTick.bCanEverTick = true;
+
+    UE_LOG(LogTemp, Display, TEXT("Constructing"));
+
+	// ...
+}
+
 void UTriggerComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-    UE_LOG(LogTemp, Display, TEXT("Trigger Component"));
+    UE_LOG(LogTemp, Display, TEXT("Trigger Component : BeginPlay"));
+}
+
+void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
+{
+    Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+    // UE_LOG(LogTemp, Display, TEXT("Trigger Component Is Ticking Here"));
+
+	// TArray 
+	TArray<AActor*> Actors;
+	GetOverlappingActors(Actors);
+
+	// 겹치는 object가 1개 이상 있을 때만 출력하도록 만들기
+	if (Actors.Num() > 0)
+	{
+		FString actorName = Actors[0]->GetActorNameOrLabel();
+		UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
+	}
 }
