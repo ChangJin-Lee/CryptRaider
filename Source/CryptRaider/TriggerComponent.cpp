@@ -29,8 +29,8 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
     // UE_LOG(LogTemp, Display, TEXT("Trigger Component Is Ticking Here"));
 
 	// TArray 
-	TArray<AActor*> Actors;
-	GetOverlappingActors(Actors);
+	// TArray<AActor*> Actors;
+	// GetOverlappingActors(Actors);
 
 	// 겹치는 object가 1개 이상 있을 때만 출력하도록 만들기
 	// if (Actors.Num() > 0)
@@ -54,13 +54,40 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	// }
 	
 	// range based for loop
+	// for (AActor* Actor : Actors)
+	// {
+	// 	FString actorName = Actor->GetActorNameOrLabel();
+	// 	if (Actor->ActorHasTag(CollisionObjectTag))
+	// 	{
+	// 		UE_LOG(LogTemp, Display, TEXT("Unlocking"));
+	// 	}
+	// 	
+	// }
+
+	AActor* actor = GetAcceptableActor();
+	if(actor != nullptr)
+	{
+		UE_LOG(LogTemp, Display, TEXT("UnLocking!"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Display, TEXT("Locking!"));
+	}
+}
+
+AActor* UTriggerComponent::GetAcceptableActor() const
+{
+	TArray<AActor*> Actors;
+	GetOverlappingActors(Actors);
 	for (AActor* Actor : Actors)
 	{
 		FString actorName = Actor->GetActorNameOrLabel();
 		if (Actor->ActorHasTag(CollisionObjectTag))
 		{
-			UE_LOG(LogTemp, Display, TEXT("Unlocking"));
+			return Actor;
 		}
 		
 	}
+
+	return nullptr;
 }

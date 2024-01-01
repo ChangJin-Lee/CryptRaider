@@ -30,4 +30,6 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 	FName CollisionObjectTag;
+
+	AActor* GetAcceptableActor() const;
 };
