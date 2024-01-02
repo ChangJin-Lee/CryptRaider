@@ -67,12 +67,25 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	AActor* actor = GetAcceptableActor();
 	if(actor != nullptr)
 	{
+		UPrimitiveComponent* Component = Cast<UPrimitiveComponent>(actor->GetRootComponent());
+		if (Component != nullptr)
+		{
+			Component->SetSimulatePhysics(false);
+		}
+		actor->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+		Mover->SetShouldMove(true);
 		UE_LOG(LogTemp, Display, TEXT("UnLocking!"));
 	}
 	else
 	{
+		Mover->SetShouldMove(false);
 		UE_LOG(LogTemp, Display, TEXT("Locking!"));
 	}
+}
+
+void UTriggerComponent::SetMover(UMover* NewMover)
+{
+	Mover = NewMover;
 }
 
 AActor* UTriggerComponent::GetAcceptableActor() const

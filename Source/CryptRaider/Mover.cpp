@@ -33,7 +33,7 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	
-	if (IsMovable)
+	if (ShouldMove)
 	{
 		FVector CurrentLocation = GetOwner()->GetActorLocation();
 		FVector TargetLocation = CurrentLocation + MoveOffset;
@@ -56,5 +56,10 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 	
 	// UE_LOG(LogTemp, Display, TEXT("Mover is ticking!"));
 	// ...
+}
+
+void UMover::SetShouldMove(bool NewShouldMove)
+{
+	ShouldMove = NewShouldMove;
 }
 
