@@ -94,8 +94,10 @@ AActor* UTriggerComponent::GetAcceptableActor() const
 	GetOverlappingActors(Actors);
 	for (AActor* Actor : Actors)
 	{
-		FString actorName = Actor->GetActorNameOrLabel();
-		if (Actor->ActorHasTag(CollisionObjectTag))
+		bool HasAcceptableTag = Actor->ActorHasTag(CollisionObjectTag);
+		bool IsGrabbed = Actor->ActorHasTag("Grabbed");
+		// FString actorName = Actor->GetActorNameOrLabel();
+		if (HasAcceptableTag && !IsGrabbed)
 		{
 			return Actor;
 		}
