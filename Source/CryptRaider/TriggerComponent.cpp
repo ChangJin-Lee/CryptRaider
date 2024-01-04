@@ -65,10 +65,10 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	// }
 
 	AActor* actor = GetAcceptableActor();
-	if(actor != nullptr)
+	if(actor)
 	{
 		UPrimitiveComponent* Component = Cast<UPrimitiveComponent>(actor->GetRootComponent());
-		if (Component != nullptr)
+		if (Component)
 		{
 			Component->SetSimulatePhysics(false);
 		}
