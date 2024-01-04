@@ -3,9 +3,29 @@ Unreal Engine 5 Level design for dungeon
 
 - Need to download medieval dungeon from Market place
 
+---
 
+</br>
+
+## What I Learned?
+
+- Pointers and Refereces
+- Actor Components and Scene Components
+- Including Header files
+- Lighting with Lumen
+- Modular level design
+- Line Tracing and Collisions
+- While, For Loops and Arrays
+- Calling C++ function from Blueprint
+
+</br>
 
 --- 
+
+
+<details>
+<summary>자세한 내용 보기</summary>
+<div markdown="1">
 
 ### 루멘, 라이트 블리딩
 
@@ -73,3 +93,6 @@ Unreal Engine 5 Level design for dungeon
 - 컴포지션
     - 좀 더 선택 폭이 넓다
     - 클래스 A가 클래스 B 의 인스턴스를 포함할수도 있고 해당 기능을 사용할 수 있지만 꼭 그래야하는 건 아니다. 즉 필요한 부분만 가져가서 사용할 수 있다.
+
+</div>
+</details>
