@@ -12,7 +12,6 @@ UTriggerComponent::UTriggerComponent()
 
     UE_LOG(LogTemp, Display, TEXT("Constructing"));
 
-	// ...
 }
 
 void UTriggerComponent::BeginPlay()
@@ -25,44 +24,6 @@ void UTriggerComponent::BeginPlay()
 void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-    // UE_LOG(LogTemp, Display, TEXT("Trigger Component Is Ticking Here"));
-
-	// TArray 
-	// TArray<AActor*> Actors;
-	// GetOverlappingActors(Actors);
-
-	// 겹치는 object가 1개 이상 있을 때만 출력하도록 만들기
-	// if (Actors.Num() > 0)
-	// {
-	// 	FString actorName = Actors[0]->GetActorNameOrLabel();
-	// 	UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
-	// }
-
-	// int32 index = 0;
-	// while (index < Actors.Num())
-	// {
-	// 	FString actorName = Actors[index]->GetActorNameOrLabel();
-	// 	UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
-	// 	++index;
-	// }
-
-	// for (int32 i = 0; i < Actors.Num(); i++)
-	// {
-	// 	FString actorName = Actors[i]->GetActorNameOrLabel();
-	// 	UE_LOG(LogTemp, Display, TEXT("OverlappedObject : %s"), *actorName);
-	// }
-	
-	// range based for loop
-	// for (AActor* Actor : Actors)
-	// {
-	// 	FString actorName = Actor->GetActorNameOrLabel();
-	// 	if (Actor->ActorHasTag(CollisionObjectTag))
-	// 	{
-	// 		UE_LOG(LogTemp, Display, TEXT("Unlocking"));
-	// 	}
-	// 	
-	// }
 
 	AActor* actor = GetAcceptableActor();
 	if(actor)

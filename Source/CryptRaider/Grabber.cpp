@@ -121,15 +121,7 @@ void UGrabber::Grab()
 			NAME_None,
 			HitResult.ImpactPoint,
 			GetComponentRotation());
-		// DrawDebugSphere(GetWorld(), HitResult.Location, 10, 10, FColor::Green, false, 5);
-		// DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10, 10, FColor::Red, false, 5);
-		// AActor *MyActor = HitResult.GetActor();
-		// UE_LOG(LogTemp, Display, TEXT("Hit actor: %s"), *MyActor->GetActorNameOrLabel());
 	}
-	// else
-	// {
-	// 	UE_LOG(LogTemp, Display, TEXT("No Actor hit"));
-	// }
 }
 
 UPhysicsHandleComponent *UGrabber::GetPhysicsHandle() const
